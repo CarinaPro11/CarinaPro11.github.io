@@ -29,15 +29,15 @@
 }
 
 .card .name {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .card .date {
-    font-size: .8em;
+    font-size: .7em;
     color: #aaa;
 }
 
 .card .description {
     font-weight: initial;
-    font-size: .9em;
+    font-size: .8em;
 }
