@@ -5,17 +5,25 @@ $(() => {
         const nextIndex = Math.floor(Math.random() * count)
         const nextElement = $(elements[nextIndex])
 
-        if (nextElement.hasClass('active')) {
-            return selectNextBackground()
+        if (nextElement.hasClass('animating')) {
+            return
         }
 
-        const x = Math.floor(Math.random() * 100)
-        const y = Math.floor(Math.random() * 100)
-        nextElement.css('background-position', `${x}% ${y}%`)
+        nextElement.addClass('animating')
+
+        const x = Math.floor(Math.random() * 80) + 10
+        const y = Math.floor(Math.random() * 80) + 10
+        const rotation = Math.floor(Math.random() * 360)
+        nextElement.css('top', `${x}%`)
+        nextElement.css('left', `${y}%`)
+        nextElement.css('transform', `rotate(${rotation}deg)`)
         nextElement.addClass('active')
         setTimeout(() => {
             nextElement.removeClass('active')
-        }, Math.floor(Math.random() * 3500) + 3500)
+            setTimeout(() => {
+                nextElement.removeClass('animating')
+            }, 2060)
+        }, Math.floor(Math.random() * 2500) + 1500)
         return nextIndex
     }
 
@@ -28,5 +36,5 @@ $(() => {
 
     setInterval(() => {
         selectNextBackground()
-    }, 3500)
+    }, Math.floor(Math.random() * 500) + 50)
 })
