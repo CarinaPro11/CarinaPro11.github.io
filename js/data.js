@@ -1,29 +1,6 @@
 const timeline = [
     {
         icon: 'mortarboard',
-        title: '12º ano',
-        date: {
-            start: {
-                year: 2017,
-                month: 10,
-                day: 15
-            },
-            end: {
-                year: 2020,
-                month: 7,
-                day: 24
-            }
-        },
-        location: 'Coimbra, Portugal',
-        description: 'Curso de Educação e Formação de Adultos (EFA)<br/>- Comunicação Língua e Cultura<br/>- Sociedade Tecnologia e Ciência<br/>- Cidadania e Profissionalidade<br/>- PRA - apoio na formação e direções assistidas',
-        links: [
-            {
-                uri: 'https://www.aecoimbracentro.pt/agrupamento/escola/1/jaime-cortesao'
-            }
-        ]
-    },
-    {
-        icon: 'mortarboard',
         title: 'Ensino Superior',
         date: {
             start: {
