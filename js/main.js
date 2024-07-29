@@ -1,6 +1,6 @@
 $(() => {
     const selectNextBackground = () => {
-        const elements = $('.background')
+        const elements = $('.background div')
         const count = elements.length
         const nextIndex = Math.floor(Math.random() * count)
         const nextElement = $(elements[nextIndex])
@@ -19,7 +19,7 @@ $(() => {
         return nextIndex
     }
 
-    $('.background').each((index, element) => {
+    $('[data-bg]').each((index, element) => {
         const elem = $(element)
         const background = elem.attr('data-bg')
 

@@ -1,7 +1,30 @@
 const timeline = [
     {
         icon: 'mortarboard',
-        name: 'Ensino Superior',
+        title: '12º ano',
+        date: {
+            start: {
+                year: 2017,
+                month: 10,
+                day: 15
+            },
+            end: {
+                year: 2020,
+                month: 7,
+                day: 24
+            }
+        },
+        location: 'Coimbra, Portugal',
+        description: 'Curso de Educação e Formação de Adultos (EFA)<br/>- Comunicação Língua e Cultura<br/>- Sociedade Tecnologia e Ciência<br/>- Cidadania e Profissionalidade<br/>- PRA - apoio na formação e direções assistidas',
+        links: [
+            {
+                uri: 'https://www.aecoimbracentro.pt/agrupamento/escola/1/jaime-cortesao'
+            }
+        ]
+    },
+    {
+        icon: 'mortarboard',
+        title: 'Ensino Superior',
         date: {
             start: {
                 year: 2021,
@@ -14,17 +37,17 @@ const timeline = [
                 day: 18
             }
         },
-        description: 'Curso Técnico Superior Profissional - Maneio de Equinos, Equitação Terapêutica e de Lazer',
+        location: 'Coimbra, Portugal',
+        description: 'Curso Técnico Superior Profissional (CTeSP) de Maneio de Equinos, Equitação Terapêutica e de Lazer',
         links: [
             {
-                uri: 'https://www.esac.pt',
-                icon: 'link-45deg'
+                uri: 'https://www.esac.pt'
             }
         ]
     },
     {
         icon: 'briefcase',
-        name: 'Centro Hípico de Coimbra<br/>- Estágio',
+        title: 'Centro Hípico de Coimbra - Estágio',
         date: {
             start: {
                 year: 2023,
@@ -37,6 +60,7 @@ const timeline = [
                 day: 27
             }
         },
+        location: 'Coimbra, Portugal',
         description: '- Manutenção das boxes dos equinos da escola de equitação<br/>- Trabalho de cavalos à guia com ou sem rédeas<br/>- Aparelhar e desaparelhar cavalos<br/>- Guia de passeios para clientes a cavalo/pónei',
         links: [
             {
@@ -47,7 +71,7 @@ const timeline = [
     },
     {
         icon: 'briefcase',
-        name: 'Indústria e Comércio Alimentar<br/>- Part-time',
+        title: 'Indústria e Comércio Alimentar - Part-time',
         date: {
             start: {
                 year: 2023,
@@ -60,6 +84,7 @@ const timeline = [
                 day: 31
             }
         },
+        location: 'Coimbra, Portugal',
         description: 'Empregada de Refeitório<br/>- Preparar o espaço para a entrada das crianças<br/>- Servir à mesa<br/>- Supervisionar as crianças enquanto almoçam<br/>- Limpeza do estabelecimento',
         links: [
             {
