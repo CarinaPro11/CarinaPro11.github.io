@@ -11,11 +11,11 @@ $(() => {
 
         nextElement.addClass('animating')
 
-        const x = Math.floor(Math.random() * 80) + 10
-        const y = Math.floor(Math.random() * 80) + 10
+        const x = Math.floor(Math.random() * 70) + 10
+        const y = Math.floor(Math.random() * 70) + 10
         const rotation = Math.floor(Math.random() * 360)
-        nextElement.css('top', `${x}%`)
-        nextElement.css('left', `${y}%`)
+        nextElement.css('bottom', `${x}%`)
+        nextElement.css('right', `${y}%`)
         nextElement.css('transform', `rotate(${rotation}deg)`)
         nextElement.addClass('active')
         setTimeout(() => {
