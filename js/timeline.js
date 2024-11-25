@@ -22,7 +22,7 @@ $(() => {
             if (timelineDate.end) {
                 str += getDate(timelineDate, false)
             } else {
-                str += 'Present'
+                str += 'Presente'
             }
         }
 

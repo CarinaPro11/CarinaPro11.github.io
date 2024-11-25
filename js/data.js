@@ -1,7 +1,7 @@
 const timeline = [
     {
         icon: 'mortarboard',
-        title: 'Ensino Superior',
+        title: 'Ensino Superior - CTeSP',
         date: {
             start: {
                 year: 2021,
@@ -15,7 +15,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Curso Técnico Superior Profissional (CTeSP) de Maneio de Equinos, Equitação Terapêutica e de Lazer',
+        description: 'Curso Técnico Superior Profissional de Maneio de Equinos, Equitação Terapêutica e de Lazer na Escola Superior Agrária de Coimbra',
         links: [
             {
                 uri: 'https://www.esac.pt'
@@ -38,7 +38,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: '- Manutenção das boxes dos equinos da escola de equitação<br/>- Trabalho de cavalos à guia com ou sem rédeas<br/>- Aparelhar e desaparelhar cavalos<br/>- Guia de passeios para clientes a cavalo/pónei',
+        description: '<ul><li>Manutenção das boxes dos equinos da escola de equitação</li><li>Trabalho de cavalos à guia com ou sem rédeas</li><li>Aparelhar e desaparelhar cavalos</li><li>Guia de passeios para clientes a cavalo/pónei</li></ul>',
         links: [
             {
                 uri: 'https://www.instagram.com/centro_hipico_coimbra',
@@ -62,11 +62,28 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Empregada de Refeitório<br/>- Preparar o espaço para a entrada das crianças<br/>- Servir à mesa<br/>- Supervisionar as crianças enquanto almoçam<br/>- Limpeza do estabelecimento',
+        description: 'Empregada de Refeitório<ul><li>Preparar o espaço para a entrada das crianças</li><li>Servir à mesa</li><li>Supervisionar as crianças enquanto almoçam</li><li>Limpeza do estabelecimento</li></ul>',
         links: [
             {
                 uri: 'https://www.linkedin.com/company/ica-ind%C3%BAstria-e-com%C3%A9rcio-alimentar-s-a',
                 icon: 'linkedin'
+            }
+        ]
+    },
+    {
+        icon: 'mortarboard',
+        title: 'Ensino Superior - Licenciatura',
+        date: {
+            start: {
+                year: 2024,
+                month: 9,
+            }
+        },
+        location: 'Coimbra, Portugal',
+        description: 'Licenciatura de Turismo na Escola Superior Agrária de Coimbra',
+        links: [
+            {
+                uri: 'https://www.esac.pt'
             }
         ]
     }

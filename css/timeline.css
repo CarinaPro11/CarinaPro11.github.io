@@ -53,3 +53,7 @@
     flex-direction: column;
     gap: .3rem;
 }
+
+ul {
+    margin: 0;
+}
